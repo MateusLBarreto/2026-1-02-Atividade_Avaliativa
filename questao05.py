@@ -10,6 +10,7 @@ soma = sum(vetorValores)
 media = soma / repeticoes
 print(f"A soma desses numeros é igual a: {soma}\nA media aritmetica desses numeros é igual a: {media}")
 print(f"O maior desses numeros é: {max(vetorValores)}\nO menor desses numeros é: {min(vetorValores)}")
-for j in range(math.floor(media), max(vetorValores)):
-    vMaiorMeida += 1
-print("Existem", vMaiorMeida ,"valores maiores que a media.")
+for j in vetorValores:
+    if j > media:
+        vMaiorMeida += 1
+print("Existem", vMaiorMeida, "Valores maiores que a media.")
