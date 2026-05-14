@@ -1,5 +1,4 @@
 # Questao 5
-import math
 repeticoes = int(input("Digite quantos valores seram digitados: "))
 vetorValores = []
 vMaiorMeida = 0
